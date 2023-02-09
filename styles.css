@@ -24,3 +24,18 @@ body {
     text-align: center;
     color: #E7F6F2;
   }
+
+  /* resume section  */
+
+.resume-title {
+    border-right: solid;
+    text-align: center;
+    padding-top: 2%;
+    
+  }
+  
+  #job-history {
+    padding: 5%;
+    background-color: #A5C9CA;
+    color: #2c3333;
+  }  

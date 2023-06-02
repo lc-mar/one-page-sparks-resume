@@ -1,8 +1,4 @@
-body {
-  font-family: "raleway";
-  text-align: center;
-}
-
+body,
 h1,
 h2,
 h3,
@@ -17,31 +13,30 @@ p {
 }
 
 /* header */
-
 #header {
   background-color: #395b64;
-  padding: 5%;
+  padding: 2.5%;
   text-align: center;
   color: #e7f6f2;
 }
 
-/* resume section  */
-
+/* resume section */
 .resume-title {
   border-right: solid;
   text-align: center;
   padding-top: 2%;
 }
 
-#job-history {
-  padding: 5%;
+#job-history,
+#education {
+  padding: 2.5%;
   background-color: #a5c9ca;
   color: #2c3333;
 }
 
-/* skills  */
+/* skills */
 #skills {
-  padding: 5%;
+  padding: 2.5%;
   background-color: #e7f6f2;
 }
 
@@ -51,12 +46,7 @@ p {
   color: #8f8f8f;
 }
 
-/* education  */
-#education {
-  padding: 5%;
-  background-color: #a5c9ca;
-  color: #2c3333;
-}
+/* education */
 .school-info {
   font-style: italic;
 }

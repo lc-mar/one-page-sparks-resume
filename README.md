@@ -1,2 +1,0 @@
-# one-page-sparks-resume
- 

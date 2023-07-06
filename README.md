@@ -1,31 +1,37 @@
-# one-page-sparks-resume
-This is a simple HTML and CSS-based resume template for Lauren Marcinek. The resume provides information about Lauren's job history, skills, education, and contact details. The design of the resume uses various styles and colors to create a visually appealing and organized layout.
+# Lauren Marcinek's Resume
 
-## Preview
+This repository contains Lauren Marcinek's resume, presented as a simple HTML webpage.
 
-You can view the resume by opening the HTML file in a web browser. The resume is structured into sections, including:
+## Resume Overview
 
-- Header: Displays Lauren's name, email address, and phone number.
-- Job History: Lists Lauren's past employment experiences, including job titles, years of employment, and key responsibilities.
-- Skills: Highlights Lauren's skills in different areas, such as web development, content creation, writing, and other skills.
-- Education and Certificates: Provides information about Lauren's educational background, including degrees and certificates obtained.
-- Footer: Includes social media icons linking to Lauren's GitHub and LinkedIn profiles, as well as an email icon for contacting her. The footer also displays a copyright notice.
+Lauren Marcinek's resume provides a comprehensive overview of her professional experience, skills, and education. The resume is structured into several sections, including:
 
-## Customization
+1. **Header**: Displays Lauren's name, email address, and phone number.
 
-You can customize the resume by modifying the HTML and CSS files. Here are some customization options:
+2. **Job History**: Highlights Lauren's employment history, including details such as job titles, dates of employment, and key accomplishments for each position.
 
-- Content: Update the content in each section to reflect your own job history, skills, education, and contact details.
-- Styles: Modify the CSS styles in the `styles.css` file to change the colors, fonts, spacing, and other visual aspects of the resume. You can customize the background colors, font families, text colors, and other elements to match your preferences.
+3. **Skills**: Showcases Lauren's diverse skill set, covering areas such as full-stack web development, content creation, writing, and other essential skills.
 
-Feel free to personalize the resume to suit your needs and style.
+4. **Education and Certificates**: Provides information about Lauren's educational background, including degrees and certificates earned.
 
-## Credits
+5. **Footer**: Includes links to Lauren's GitHub and LinkedIn profiles, as well as her email address.
 
-This resume template was created using HTML, CSS, and Bootstrap. It utilizes Google Fonts for the font styles and Font Awesome for the social media icons. The design is inspired by modern and professional resume layouts.
+## Technologies Used
 
-## Contact
+The resume is built using the following technologies:
 
-If you have any questions or suggestions regarding this resume template, please feel free to contact Lauren Marcinek at laursparkles@gmail.com or visit her GitHub profile [here](https://github.com/lc-mar) and LinkedIn profile [here](https://www.linkedin.com/in/lmarcinek).
+- HTML: Used for structuring the content of the webpage.
+- CSS: Applied to style the resume and create an appealing visual presentation.
+- Google Fonts: Adds custom typography to enhance the visual aesthetics.
+- Font Awesome: Provides icons for social media links.
 
----
+## Usage
+
+To view Lauren Marcinek's resume, follow these steps:
+
+1. Clone the repository or download the project files to your local machine.
+2. Open the `index.html` file in a web browser.
+3. The resume will be displayed, allowing you to explore Lauren's qualifications, experience, and skills.
+
+Feel free to reach out to Lauren Marcinek at laursparkles@gmail.com for any further inquiries or opportunities.
+

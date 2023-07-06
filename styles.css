@@ -1,26 +1,38 @@
 body, h1, h2, h3, h4, h5, h6 {
-  font-family: "raleway";
+  font-family: 'Zilla Slab', serif;
   
 }
 
 body {
-    --s: 70px; /* control the size */
-    
-    --_g:,#0000 75%,#F67280 0;
-    background:
-      linear-gradient(-45deg var(--_g)),
-      linear-gradient( 45deg var(--_g)) 
-       0 calc(var(--s)/2) #355C7D;
-    background-size: var(--s) var(--s);
-  }
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  --s: 200px; /* control the size */
+  
+  --_g: #dc9d37 25%,#fed450 0 50%,#0000 0;
+  --_l1: #fff 0 1px,#0000 0 calc(25% - 1px),#fff 0 25%;
+  --_l2: #fff 0 1px,#0000 0 calc(50% - 1px),#fff 0 50%;
+  background:
+    repeating-linear-gradient( 45deg,var(--_l1)),
+    repeating-linear-gradient(-45deg,var(--_l1)),
+    repeating-linear-gradient(  0deg,var(--_l2)),
+    repeating-linear-gradient( 90deg,var(--_l2)),
+    conic-gradient(from 135deg at 25% 75%,var(--_g)),
+    conic-gradient(from 225deg at 25% 25%,var(--_g)),
+    conic-gradient(from  45deg at 75% 75%,var(--_g)),
+    conic-gradient(from -45deg at 75% 25%,var(--_g)),
+    repeating-conic-gradient(#125c65 0 45deg,#bc4a33 0 90deg);  
+  background-size: var(--s) var(--s);
+}
+
   
 
 p {
-  color: #8f8f8f;
+  color: #e7f6f2;
 }
 /* header */
 #header {
-  padding: 2.5%;
+  padding: 10%;
   text-align: center;
   color: #e7f6f2;
 }
@@ -30,24 +42,33 @@ p {
   border-right: solid;
   text-align: center;
   padding-top: 2%;
+  margin-right: 5%;
+  font-size: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 #job-history, #education {
   padding: 2.5%;
-  color: #2c3333;
+  color: #e7f6f2;
+  font-size: 14px;
 }
 .text-container {
   background-color: rgba(251, 80, 18, 0.82);
-  margin: 0 20%;
+  margin: 2% 20%;
+  flex-grow: 1;
   
 }
 /* skills */
 #skills {
+  color: #e7f6f2;
   padding: 2.5%;
+  font-size: 20px;
 }
 .skills-list {
   margin-left: 20px;
   font-style: italic;
-  color: #8f8f8f;
+  font-size: 14px;
 }
 /* education */
 .school-info {
@@ -59,7 +80,11 @@ li {
 }
 /* footer */
 #footer {
+  width: 100%;
+  margin-top:5%;
+  background-color: rgba(251, 80, 18, 0.82);
   text-align: center;
+
 }
 .social-icons {
   margin: 20px 10px;

@@ -27,19 +27,22 @@ p {
 }
 /* resume section */
 .resume-title {
-  float: left;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   width: 20%;
-  border-right: 1px solid #fff;
   margin-right: 5%;
   font-size: 18px;
-  align-items: center;
-  justify-content: flex-end;
   flex-direction: column;
   overflow-wrap: break-word;
-  display: flex;
-  text-align: center;
   height: 100%;
+  text-align: center;
+  border-right: 1px solid #fff;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
 }
+
 .resume-title h1 {
   margin: 0;
   padding: 0;
@@ -50,10 +53,11 @@ p {
   padding: 2.5%;
   color: #e7f6f2;
   font-size: 14px;
-  align-items: center;
-  justify-content: center;
+  align-items: flex-start;
+  justify-content: flex-start;
   text-align: left;
   line-height: 1.5;
+
 }
 .content-title {
   font-size: 20px;
@@ -76,8 +80,8 @@ p {
   background-color: rgba(251, 80, 18, 0.87);
   margin: 2% 20%;
   position: relative;
-  
 }
+
 /* skills */
 #skills {
   color: #e7f6f2;

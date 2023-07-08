@@ -1,32 +1,20 @@
 body, h1, h2, h3, h4, h5, h6 {
-  font-family: 'Zilla Slab', serif;
-  
+  font-family: "Zilla Slab", serif;
+  margin: 0;
+  padding: 0;
 }
-
 body {
   display: flex;
   flex-direction: column;
   min-height: 100vh;
-  --s: 200px; /* control the size */
-  
-  --_g: #dc9d37 25%,#fed450 0 50%,#0000 0;
-  --_l1: #fff 0 1px,#0000 0 calc(25% - 1px),#fff 0 25%;
-  --_l2: #fff 0 1px,#0000 0 calc(50% - 1px),#fff 0 50%;
-  background:
-    repeating-linear-gradient( 45deg,var(--_l1)),
-    repeating-linear-gradient(-45deg,var(--_l1)),
-    repeating-linear-gradient(  0deg,var(--_l2)),
-    repeating-linear-gradient( 90deg,var(--_l2)),
-    conic-gradient(from 135deg at 25% 75%,var(--_g)),
-    conic-gradient(from 225deg at 25% 25%,var(--_g)),
-    conic-gradient(from  45deg at 75% 75%,var(--_g)),
-    conic-gradient(from -45deg at 75% 25%,var(--_g)),
-    repeating-conic-gradient(#125c65 0 45deg,#bc4a33 0 90deg);  
+  --s: 200px;
+ /* control the size */
+  --_g: #dc9d37 25%, #fed450 0 50%, #0000 0;
+  --_l1: #fff 0 1px, #0000 0 calc(25% - 1px), #fff 0 25%;
+  --_l2: #fff 0 1px, #0000 0 calc(50% - 1px), #fff 0 50%;
+  background: repeating-linear-gradient(45deg, var(--_l1)), repeating-linear-gradient(-45deg, var(--_l1)), repeating-linear-gradient(0deg, var(--_l2)), repeating-linear-gradient(90deg, var(--_l2)), conic-gradient(from 135deg at 25% 75%, var(--_g)), conic-gradient(from 225deg at 25% 25%, var(--_g)), conic-gradient(from 45deg at 75% 75%, var(--_g)), conic-gradient(from -45deg at 75% 25%, var(--_g)), repeating-conic-gradient(#125c65 0 45deg, #bc4a33 0 90deg);
   background-size: var(--s) var(--s);
 }
-
-  
-
 p {
   color: #e7f6f2;
 }
@@ -35,58 +23,102 @@ p {
   padding: 10%;
   text-align: center;
   color: #e7f6f2;
+  font-size: 28px;
 }
 /* resume section */
 .resume-title {
-  flex-basis: 20%;
-  border-right: solid;
-  text-align: center;
-  padding-top: 2%;
+  float: left;
+  width: 20%;
+  border-right: 1px solid #fff;
   margin-right: 5%;
-  font-size: 20px;
+  font-size: 18px;
+  align-items: center;
+  justify-content: flex-end;
+  flex-direction: column;
+  overflow-wrap: break-word;
   display: flex;
+  text-align: center;
+  height: 100%;
+}
+.resume-title h1 {
+  margin: 0;
+  padding: 0;
+}
+
+.resume-content {
+  margin-left: 25%;
+  padding: 2.5%;
+  color: #e7f6f2;
+  font-size: 14px;
   align-items: center;
   justify-content: center;
+  text-align: left;
+  line-height: 1.5;
+}
+.content-title {
+  font-size: 20px;
+  margin: 0;
+  padding: 0;
+}
+.content-info {
+  font-size: 16px;
 }
 #job-history, #education {
   padding: 2.5%;
   color: #e7f6f2;
-  font-size: 14px;
+}
+.years {
+  margin-top: 0px;
+  margin-left: 0px;
+  font-style: italic;
 }
 .text-container {
-  background-color: rgba(251, 80, 18, 0.82);
+  background-color: rgba(251, 80, 18, 0.87);
   margin: 2% 20%;
-  flex-grow: 1;
+  position: relative;
   
 }
 /* skills */
 #skills {
   color: #e7f6f2;
   padding: 2.5%;
-  font-size: 20px;
+  font-weight: 700;
 }
 .skills-list {
+  margin-top: 1px;
   margin-left: 20px;
-  font-style: italic;
-  font-size: 14px;
+  font-weight: 400;
+  margin-bottom: 10px;
 }
 /* education */
 .school-info {
-  font-style: italic;
-}
-li {
-  text-indent: -20px;
-  margin-left: 20px;
+  margin-top: 1px;
+  margin-left: 0px;
+  font-weight: 400;
+  font-size: 16px;
 }
 /* footer */
 #footer {
   width: 100%;
-  margin-top:5%;
+  margin-top: 5%;
   background-color: rgba(251, 80, 18, 0.82);
   text-align: center;
-
 }
 .social-icons {
   margin: 20px 10px;
   color: #e7f6f2;
+}
+@media (max-width: 868px) {
+  .resume-title {
+      width: 100%;
+     /* Set the width to 100% on smaller screens */
+      max-width: none;
+     /* Remove the maximum width restriction */
+      margin-right: 0;
+     /* Remove the right margin */
+      margin-bottom: 10px;
+     /* Add a bottom margin to create space between title and content */
+      font-size: 14px;
+      border-right: none;
+ }
 }

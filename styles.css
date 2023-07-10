@@ -1,5 +1,4 @@
 body, h1, h2, h3, h4, h5, h6 {
-  font-family: "Zilla Slab", serif;
   margin: 0;
   padding: 0;
 }
@@ -20,6 +19,7 @@ p {
 }
 /* header */
 #header {
+  font-family: 'Belanosima', sans-serif;
   padding: 10%;
   text-align: center;
   color: #e7f6f2;
@@ -27,6 +27,7 @@ p {
 }
 /* resume section */
 .resume-title {
+  font-family: 'Belanosima', sans-serif;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -49,6 +50,7 @@ p {
 }
 
 .resume-content {
+  font-family: 'Marcellus', serif;
   margin-left: 25%;
   padding: 2.5%;
   color: #e7f6f2;
